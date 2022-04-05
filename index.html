@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h4>BODY MASS INDEX CALCULATOR</h4>
+    <div class="form">
+        <div class="container">
+            <form class="container">
+                <div class="line">Weight(Kg):   <input type="number" id="weight"><br></div>
+                <div class="line">Height: <input type="number" id="feet"> feet  
+                <input type="number" id="inches"> inches<br></div>
+            </form>
+                <div class="button-container"><button onclick="bmi()">CALCULATE</button></div>
+                <div class="result" id="result">
+                   *Click on Calculate Button Above*
+                </div>
+            
+        </div>
+    </div>
+    <script src="formula.js"></script>
+</body>
+</html>
